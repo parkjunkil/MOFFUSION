@@ -1,0 +1,12 @@
+# ref: https://github.com/yccyenchicheng/AutoSDF, https://github.com/CompVis/latent-diffusion/
+# code/configs/pvqvae_nembed-8192-z-3x8x8x8-mof.yaml
+
+model:
+  params:
+    resolution: 32
+    kernel : 3
+    padding : 1
+    layers : [4,4]
+    dropout: 0.0
+    ddconfig:
+      in_channels: 4
