@@ -9,7 +9,7 @@ Code release for the paper "Multi-modal conditioning for metal-organic framework
 ![Architecture_대지 1 사본 20_대지 1 사본 21](https://github.com/parkjunkil/MOFFUSION/assets/88761984/9002e6c7-9689-4d0e-8d62-ccd72fd7f980)
 
 
-MOFFUSION is a multi-modal conditional diffusion model for MOF generation. Diverse modalities of data, including numeric, categorical, and text data, can be used for the conditional generation of MOFs. Signed distance functions (SDFs) were used for the input representation of MOFs, which effectively capture the complicated pore morphology of MOFs. MOFFUSION showed exceptional generation performance compared to baseline models, with exhibiting versatile capability in conditional generation.
+MOFFUSION is a multi-modal conditional diffusion model for MOF generation. Signed distance functions (SDFs) were used for the input representation of MOFs, which effectively capture the complicated pore morphology of MOFs (below). MOFFUSION showed exceptional generation performance compared to baseline models in terms of structure validity and property statistics. Diverse modalities of data, including numeric, categorical, text, and their combinations, were successfully handled for the conditional generation of MOFs.
 
 
 <p align="center"><img src=https://github.com/parkjunkil/MOFFUSION/assets/88761984/fdfa3198-0895-455b-9b86-cad24670a0d2>
