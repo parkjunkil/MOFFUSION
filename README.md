@@ -6,7 +6,8 @@
 
 Code release for the paper "Multi-modal conditioning for metal-organic frameworks generation using 3D modeling techniques".
 
-![Uploading Architecture_대지 1 사본 20.jpg…]()
+
+![Architecture_대지 1 사본 20](https://github.com/parkjunkil/MOFFUSION/assets/88761984/34d91bae-2f83-4ed5-ba12-27669a0b4019)
 
 
 MOFFUSION is a multi-modal conditional diffusion model for MOF generation. Diverse modalities of data, including numeric, categorical, and text data, can be used for the conditional generation of MOFs.
