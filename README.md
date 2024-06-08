@@ -12,9 +12,7 @@ Code release for the paper "Multi-modal conditioning for metal-organic framework
 MOFFUSION is a multi-modal conditional diffusion model for MOF generation. Diverse modalities of data, including numeric, categorical, and text data, can be used for the conditional generation of MOFs.
 
 
-
-
-https://github.com/parkjunkil/MOFFUSION/assets/88761984/e56c8bd0-154c-483c-8b0f-a7b835c1bf71
+<p align="center"><img src=https://github.com/parkjunkil/MOFFUSION/assets/88761984/fdfa3198-0895-455b-9b86-cad24670a0d2>
 
 
 
