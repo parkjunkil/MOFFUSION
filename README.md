@@ -12,7 +12,7 @@ MOFFUSION is a multi-modal conditional diffusion model for MOF generation. It en
 
 We also use a 3D-printer to print out the generated shapes of SDFusion.
 
-# Datat Preparation
+# Data Preparation
 ```
 mkdir data outputs # from root directory
 cd data
