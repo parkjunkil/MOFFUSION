@@ -14,7 +14,14 @@ MOFFUSION is a multi-modal conditional diffusion model for MOF generation. Diver
 
 
 
+https://github.com/parkjunkil/MOFFUSION/assets/88761984/e56c8bd0-154c-483c-8b0f-a7b835c1bf71
+
+
+
 # Data Preparation
+
+
+
 ```
 mkdir data outputs # from root directory
 cd data
