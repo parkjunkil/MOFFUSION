@@ -87,9 +87,9 @@ We are now figuring out how to share an SDF dataset for MOFFUSION training, whic
 ```
 # BuildingNet
 ./launchers/train_vqvae.sh
-```
 
-After training, copy the trained VQVAE checkpoint to the `./saved_ckpt` folder (or any other folders), and specify the path in the launcher file.
+#After training, copy the trained VQVAE checkpoint to the `./saved_ckpt` folder (or any other folders), and specify the path in the launcher file.
+```
 
 2. Train MOF-Constructor (Optional)
 ```
