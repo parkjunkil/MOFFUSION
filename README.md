@@ -78,8 +78,9 @@ For example, if you run `demo_topo.ipynb`, the generated outputs will be saved i
 # Train MOFFUSION
 
 ## Preparing the data
-
-* We are now figuring out how to share a SDF dataset for MOFFUSION training, which is pretty large (i.e., 60 GB). Please stay tuned.
+```
+We are now figuring out how to share an SDF dataset for MOFFUSION training, which is quite large (i.e., 60 GB). Please stay tuned !!
+```
 
 ## Training
 1. Train VQVAE
