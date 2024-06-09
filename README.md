@@ -52,8 +52,8 @@ wget [] -O saved_ckpt/moffusion_uncond.pth
 wget [] -O saved_ckpt/moffusion_topo.pth
 wget [] -O saved_ckpt/moffusion_H2.pth
 wget [] -O saved_ckpt/moffusion_text.pth
-wget [] -O saved_ckpt/moffusion_node_lcd.pth
-wget [] -O saved_ckpt/moffusion_vf_sa.pth
+wget [] -O saved_ckpt/moffusion_node_lcd.pth # optional
+wget [] -O saved_ckpt/moffusion_vf_sa.pth # optional
 
 
 
