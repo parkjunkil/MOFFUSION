@@ -61,19 +61,23 @@ First create a foler to save the pre-trained weights. Here we assume the folder 
 mkdir saved_ckpt
 
 # VQVAE's checkpoint
-wget https://uofi.box.com/shared/static/zdb9pm9wmxaupzclc7m8gzluj20ja0b6.pth -O saved_ckpt/vqvae-snet-all.pth
+wget [] -O saved_ckpt/vqvae.pth
 
-# SDFusion
-wget https://uofi.box.com/shared/static/ueo01ctnlzobp2dmvd8iexy1bdsquuc1.pth -O saved_ckpt/sdfusion-snet-all.pth
+# MOF Constructor's checkpoint 
+wget [] -O saved_ckpt/mof_constructor_topo.pth
+wget [] -O saved_ckpt/mof_constructor_BB.pth
 
-# SDFusion: single-view reconstruction (img2shape)
-wget https://uofi.box.com/shared/static/01hnf7pbewft4115qkvv9zhh22v4d8ma.pth -O saved_ckpt/sdfusion-img2shape.pth
+# MOFFUSION: Unconditional model (uncond)
+wget [] -O saved_ckpt/moffusion_uncond.pth
 
-# SDFusion: text-guided shape generation (txt2shape)
-wget https://uofi.box.com/shared/static/vyqs6aex3rwbgxweyl3qh21c8p6vu33f.pth -O saved_ckpt/sdfusion-txt2shape.pth
+# MOFFUSION: Conditional models (topo, H2, text, node&lcd, vf&Sa)
+wget [] -O saved_ckpt/moffusion_topo.pth
+wget [] -O saved_ckpt/moffusion_H2.pth
+wget [] -O saved_ckpt/moffusion_text.pth
+wget [] -O saved_ckpt/moffusion_node_lcd.pth
+wget [] -O saved_ckpt/moffusion_vf_sa.pth
 
-# SDFusion: multi-modal conditional shape generation (partial shape + [ img {and/or} txt] -> shape)
-wget https://uofi.box.com/shared/static/d95l3465arc0ffley5vwmz8bscaubmhc.pth -O saved_ckpt/sdfusion-mm2shape.pth
+
 
 ```
 
