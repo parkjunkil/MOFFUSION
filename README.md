@@ -75,106 +75,50 @@ For example, if you run `demo_topo.ipynb`, the generated outputs will be saved i
 
 
 
-# How to train the SDFusion
+# Train MOFFUSION
 
 ## Preparing the data
 
-* First, depending on your OS, you might need to install the required packages/binaries via `brew` or `apt-get` for computing the SDF given a mesh. If you cannot run the preprocessing files, please ctrl+c & ctrl+v the error message and search it on Google (usually there will be a one-line solution), or open an issue on this repo. We will try to update the README with the reported issues and their solutions under the [Issues and FAQ](#issue) section.
-
-* ShapeNet
-    1. Download the ShapeNetV1 dataset from the [official website](https://www.shapenet.org/). Then, extract the downloaded file and put the extracted folder in the `./data` folder. Here we assume the extracted folder is at `./data/ShapeNet/ShapeNetCore.v1`.
-    2. Run the following command for preprocessing the SDF from mesh.
-```
-mkdir -p data/ShapeNet && cd data/ShapeNet
-wget [url for downloading ShapeNetV1]
-unzip ShapeNetCore.v1.zip
-./launchers/unzip_snet_zipfiles.sh # unzip the zip files
-cd preprocess
-./launchers/launch_create_sdf_shapenet.sh
-```
-
-* BuildingNet
-    1. Download the BuildingNet dataset from the [official website](https://buildingnet.org/). After you fill out [the form](https://docs.google.com/forms/d/e/1FAIpQLSevg7fWWMYYMd1vaOdDloUX_55VOQK7PqS1DlniFV7_vuoI0w/viewform), please download the v0 version of the dataset and uncompress it under `./data`. Here we assume the extracted folder is `./data/BuildingNet_dataset_v0_1`.
-    2. Run the following command for preprocessing the SDF from mesh.
-```
-cd preprocess
-./launchers/launch_create_sdf_building.sh
-cd ../
-```
-
-* Pix3D
-    - First download the Pix3D dataset from the [official website](http://pix3d.csail.mit.edu): 
-```
-wget http://pix3d.csail.mit.edu/data/pix3d.zip -P data
-cd data
-unzip pix3d.zip
-cd ../
-```
-    - Then, run the following command for preprocessing the SDF from mesh.
-```
-cd preprocess
-./launchers/launch_create_sdf_pix3d.sh
-cd ../
-```
-
-* ShapeNetRendering
-    - Run the following command for getting the rendering images, which is provided by the [3D-R2N2](http://3d-r2n2.stanford.edu/) paper.
-```
-wget ftp://cs.stanford.edu/cs/cvgl/ShapeNetRendering.tgz -P data/ShapeNet
-cd data/ShapeNet && tar -xvf ShapeNetRendering.tgz
-cd ../../
-```
-
-* text2shape
-    - Run the following command for setting up the text2shape dataset.
-```
-mkdir -p data/ShapeNet/text2shape
-wget http://text2shape.stanford.edu/dataset/captions.tablechair.csv -P data/ShapeNet/text2shape
-cd preprocess
-./launchers/create_snet-text_splits.sh
-```
+* We are now figuring out how to share a SDF dataset for MOFFUSION training, which is pretty large (i.e., 60 GB). Please stay tuned.
 
 ## Training
 1. Train VQVAE
 ```
-# ShapeNet
-./launchers/train_vqvae_snet.sh
-
 # BuildingNet
-./launchers/train_vqvae-bnet.sh
+./launchers/train_vqvae.sh
 ```
 
 After training, copy the trained VQVAE checkpoint to the `./saved_ckpt` folder. Let's say the name of the checkpoints are `vqvae-snet-all.ckpt` or `vqvae-bnet-all.ckpt`. This is necessary for training the Diffusion model. For SDFusion on various tasks, please see 2.~5. below.
 
-2. Train SDFusion on ShapeNet and BuildingNet
-
+2. Train MOF-Constructor (Optional)
 ```
-# ShapeNet
-./launchers/train_sdfusion_snet.sh
-
-# BuildingNet
-./launchers/train_sdfusion_bnet.sh
+We encourage users to use saved MOF-Constructor checkpoint files without needing to re-trian them.
+However, if you want to re-train them, you can easily do it as all models are available in the repository.
 ```
 
-3. Train SDFusion for single-view reconstruction
+3. Train MOFFUSION (without unconditional)
 ```
-./launchers/train_sdfusion_img2shape.sh
-```
-
-4. Train SDFusion for text-guided shape generation
-```
-# text2shape
-./launchers/train_sdfusion_txt2shape.sh
+./launchers/train_moffusion_uncond.sh
 ```
 
-5. Train SDFusion for multi-modality shape generation
+4. Train MOFFUSION conditioned on hydrogen working capacity
 ```
-./launchers/train_sdfusion_mm2shape.sh
+./launchers/train_moffusion_H2.sh
 ```
 
-6. Train the text-guided texturization
+5. Train MOFFUSION conditioned on topology
 ```
-coming soon!
+./launchers/train_moffusion_topo.sh
+```
+
+6. Train MOFFUSION conditioned on text
+```
+./launchers/train_moffusion_text.sh
+```
+
+7. Train MOFFUSION for multi-condioning
+```
+upcoming!
 ```
 
 # <a name="citation"></a> Citation
