@@ -15,22 +15,6 @@ MOFFUSION is a multi-modal conditional diffusion model for MOF generation. Signe
 <p align="center"><img src=https://github.com/parkjunkil/MOFFUSION/assets/88761984/fdfa3198-0895-455b-9b86-cad24670a0d2>
 
 
-
-# Data Preparation
-
-
-
-```
-mkdir data outputs # from root directory
-cd data
-mkdir sdfs splits logs
-cd sdfs; mkdir resolution_32; cd ..
-
-cd ../outputs
-mkdir logs
-```
-
-
 # Installation
 We recommend to build a [`conda`](https://www.anaconda.com/products/distribution) environment. You might need a different version of `cudatoolkit` depending on your GPU driver.
 ```
@@ -46,17 +30,11 @@ pip install -U scikit-learn
 
 
 
-# Usage
-
-## Training
-
-```
-PYTHONPATH=. sh launchers/train_vqvae_mof.sh
-```
+# Demo
 
 ## Download the pretrained weight
 
-First create a foler to save the pre-trained weights. Here we assume the folder is `./saved_ckpt`. Then download the pre-trained weights from the provided links and put them in the `./saved_ckpt` folder.
+First create a foler `./saved_ckpt` to save the pre-trained weights. Then download the pre-trained weights from the provided links and put them in the `./saved_ckpt` folder.
 ```
 mkdir saved_ckpt
 
@@ -81,7 +59,7 @@ wget [] -O saved_ckpt/moffusion_vf_sa.pth
 
 ```
 
-## Demo
+# Run Juypter Notebooks
 Please check the provided jupyter notebooks for how to use the code. First open the jupyter notebook server.
 ```
 jupyter notebook
@@ -89,13 +67,16 @@ jupyter notebook
 
 Then, open one of the following notebooks for the task you want to perform.
 
-1. Unconditional generation and shape completion: `demo_uncond_shape_comp.ipynb`
-2. Single-view reconstruction (img2shape): `demo_img2shape.ipynb`
-3. Text-guided shape generation (txt2shape): `demo_txt2shape.ipynb`
-4. Multi-modal conditional shape generation (partial shape + [ img | txt ] ): `demo_mm2shape.ipynb`
-5. (coming soon!) Text-guided Texturization: `demo_txt2tex.ipynb`
+1. Unconditional generation: `demo_uncond.ipynb`
+2. Topology conditioning: `demo_topo.ipynb`
+3. Text conditioning: `demo_text.ipynb`
+4. Hydrogen working capacity conditioning: `demo_H2.ipynb`
+5. Pore Crafting: `demo_pore_crafting.ipynb`
 
-Note that the notebooks will automatically save the generated shapes in the `./demo_results` folder.
+Note that the notebooks will automatically save the generated shapes in the `./samples` folder.
+For example, if you run `demo_topo.ipynb`, the generated outputs will be saved in `./samples/Demo_topo`.
+
+
 
 # How to train the SDFusion
 
