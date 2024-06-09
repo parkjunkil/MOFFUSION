@@ -65,10 +65,10 @@ jupyter notebook
 Then, open one of the following notebooks for the task you want to perform.
 
 1. Unconditional generation: `demo_uncond.ipynb`
-2. Topology conditioning: `demo_topo.ipynb`
-3. Text conditioning: `demo_text.ipynb`
-4. Hydrogen working capacity conditioning: `demo_H2.ipynb`
-5. Pore Crafting: `demo_pore_crafting.ipynb`
+2. Conditional generation on topology: `demo_topo.ipynb`
+3. Conditional generation on text: `demo_text.ipynb`
+4. Conditional generation on hydrogen working capacity: `demo_H2.ipynb`
+5. Pore crafting: `demo_pore_crafting.ipynb`
 
 Note that the notebooks will automatically save the generated shapes in the `./samples` folder.
 For example, if you run `demo_topo.ipynb`, the generated outputs will be saved in `./samples/Demo_topo`.
