@@ -126,9 +126,9 @@ upcoming!
 
 If you find this code helpful, please consider citing:
 
-1. Journal version
+1. Journal version (To be uploaded)
 ```BibTeX
-@inproceedings{cheng2023sdfusion,
+@inproceedings{,
   author={Park, Junkil and Lee, Youhan and Kim, Jihan},
   title={Multi-modal conditioning for metal-organic frameworks generation using 3D modeling techniques},
   booktitle={},
@@ -137,11 +137,11 @@ If you find this code helpful, please consider citing:
 ```
 2. arxiv version
 ```BibTeX
-@article{cheng2022sdfusion,
-  author = {Cheng, Yen-Chi and Lee, Hsin-Ying and Tuyakov, Sergey and Schwing, Alex and Gui, Liangyan},
-  title = {{SDFusion}: Multimodal 3D Shape Completion, Reconstruction, and Generation},
-  journal = {arXiv},
-  year = {2022},
+@article{,
+  author={Park, Junkil and Lee, Youhan and Kim, Jihan},
+  title={Multi-modal conditioning for metal-organic frameworks generation using 3D modeling techniques},
+  booktitle={},
+  year={2024},
 }
 ```
 
@@ -151,4 +151,4 @@ Coming soon!
 # Acknowledgement
 This code borrows heavely from [SDFUSION](https://github.com/yccyenchicheng/SDFusion)). The followings packages are required to compute the SDF: [pymol](https://freeglut.sourceforge.net/](https://github.com/schrodinger/pymol-open-source)), [mesh-to-sdf](https://www.ubuntuupdates.org/package/core/kinetic/universe/base/libtbb-dev](https://github.com/marian42/mesh_to_sdf)).
 
-This work is supported in part by ... .
+Funding information to be uploaded.
