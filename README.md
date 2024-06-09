@@ -1,7 +1,7 @@
 # MOFFUSION
 
 [[`arXiv`]to-be-uploaded]
-[[`Project Page`]to-be-uploaded]
+[[`Project Page`](https://parkjunkil.github.io/MOFFUSION/)]
 [[`BibTex`]to-be-uploaded]
 
 Code release for the paper "Multi-modal conditioning for metal-organic frameworks generation using 3D modeling techniques".
