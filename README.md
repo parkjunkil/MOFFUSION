@@ -54,9 +54,6 @@ wget [] -O saved_ckpt/moffusion_H2.pth
 wget [] -O saved_ckpt/moffusion_text.pth
 wget [] -O saved_ckpt/moffusion_node_lcd.pth # optional
 wget [] -O saved_ckpt/moffusion_vf_sa.pth # optional
-
-
-
 ```
 
 # Run Juypter Notebooks
