@@ -78,13 +78,12 @@ For example, if you run `demo_topo.ipynb`, the generated outputs will be saved i
 
 ## Preparing the data
 
-We are now figuring out how to share an SDF dataset for MOFFUSION training, which is quite large (i.e., 60 GB). Please stay tuned !!
-
+We are now figuring out how to share an SDF dataset for MOFFUSION training, which is quite large (i.e., 60 GB). Please stay tuned!!
+Once we share the dataset, please follow the procedure outlined below.
 
 ## Training
 1. Train VQVAE
 ```
-# BuildingNet
 ./launchers/train_vqvae.sh
 
 #After training, copy the trained VQVAE checkpoint to the `./saved_ckpt` folder (or any other folders), and specify the path in the launcher file.
