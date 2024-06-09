@@ -36,7 +36,7 @@ pip install -U scikit-learn
 
 First create a foler `./saved_ckpt` to save the pre-trained weights. Then download the pre-trained weights from the provided links and put them in the `./saved_ckpt` folder.
 ```
-mkdir saved_ckpt  #skip if there already exists)
+mkdir saved_ckpt  # skip if there already exists
 
 # VQVAE's checkpoint
 wget [] -O saved_ckpt/vqvae.pth
