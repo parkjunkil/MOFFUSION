@@ -49,7 +49,7 @@ wget https://figshare.com/ndownloader/files/46925974 -O saved_ckpt/mof_construct
 ## Unconditional model (uncond)
 wget https://figshare.com/ndownloader/files/46931689 -O saved_ckpt/moffusion_uncond.pth
 
-## Conditional models (topo, H2, text, node&lcd, vf&Sa)
+## Conditional models (topo, H2, text)
 wget https://figshare.com/ndownloader/files/46926004 -O saved_ckpt/moffusion_topo.pth
 wget https://figshare.com/ndownloader/files/46931701-O saved_ckpt/moffusion_H2.pth
 wget https://figshare.com/ndownloader/files/46925995 -O saved_ckpt/moffusion_text.pth
