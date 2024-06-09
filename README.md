@@ -45,10 +45,11 @@ wget https://figshare.com/ndownloader/files/46925977 -O saved_ckpt/vqvae.pth
 wget https://figshare.com/ndownloader/files/46925971 -O saved_ckpt/mof_constructor_topo.pth
 wget https://figshare.com/ndownloader/files/46925974 -O saved_ckpt/mof_constructor_BB.pth
 
-# MOFFUSION: Unconditional model (uncond)
+# MOFFUSION's checkpoint
+## Unconditional model (uncond)
 wget https://figshare.com/ndownloader/files/46931689 -O saved_ckpt/moffusion_uncond.pth
 
-# MOFFUSION: Conditional models (topo, H2, text, node&lcd, vf&Sa)
+## Conditional models (topo, H2, text, node&lcd, vf&Sa)
 wget https://figshare.com/ndownloader/files/46926004 -O saved_ckpt/moffusion_topo.pth
 wget https://figshare.com/ndownloader/files/46931701-O saved_ckpt/moffusion_H2.pth
 wget https://figshare.com/ndownloader/files/46925995 -O saved_ckpt/moffusion_text.pth
