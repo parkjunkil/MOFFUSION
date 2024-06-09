@@ -56,7 +56,7 @@ wget [] -O saved_ckpt/moffusion_node_lcd.pth # optional
 wget [] -O saved_ckpt/moffusion_vf_sa.pth # optional
 ```
 
-# Run Juypter Notebooks
+## Run Juypter Notebooks
 Please check the provided jupyter notebooks for how to use the code. First open the jupyter notebook server.
 ```
 jupyter notebook
@@ -125,13 +125,13 @@ upcoming!
 
 If you find this code helpful, please consider citing:
 
-1. Conference version
+1. Journal version
 ```BibTeX
 @inproceedings{cheng2023sdfusion,
-  author={Cheng, Yen-Chi and Lee, Hsin-Ying and Tuyakov, Sergey and Schwing, Alex and Gui, Liangyan},
-  title={{SDFusion}: Multimodal 3D Shape Completion, Reconstruction, and Generation},
-  booktitle={CVPR},
-  year={2023},
+  author={Park, Junkil and Lee, Youhan and Kim, Jihan},
+  title={Multi-modal conditioning for metal-organic frameworks generation using 3D modeling techniques},
+  booktitle={},
+  year={2024},
 }
 ```
 2. arxiv version
@@ -148,6 +148,6 @@ If you find this code helpful, please consider citing:
 Coming soon!
 
 # Acknowledgement
-This code borrows heavely from [LDM](https://github.com/CompVis/latent-diffusion), [AutoSDF](https://github.com/yccyenchicheng/AutoSDF/), [CycleGAN](https://github.com/junyanz/CycleGAN), [stable dreamfusion](https://github.com/ashawkey/stable-dreamfusion), [DISN](https://github.com/laughtervv/DISN). We thank the authors for their great work. The followings packages are required to compute the SDF: [freeglut3](https://freeglut.sourceforge.net/), [tbb](https://www.ubuntuupdates.org/package/core/kinetic/universe/base/libtbb-dev).
+This code borrows heavely from [SDFUSION](https://github.com/yccyenchicheng/SDFusion)). The followings packages are required to compute the SDF: [pymol](https://freeglut.sourceforge.net/](https://github.com/schrodinger/pymol-open-source)), [mesh-to-sdf](https://www.ubuntuupdates.org/package/core/kinetic/universe/base/libtbb-dev](https://github.com/marian42/mesh_to_sdf)).
 
-This work is supported in part by NSF under Grants 2008387, 2045586, 2106825, MRI 1725729, and NIFA award 2020-67021-32799. Thanks to NVIDIA for providing a GPU for debugging.
+This work is supported in part by ... .
