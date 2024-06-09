@@ -89,7 +89,7 @@ We are now figuring out how to share an SDF dataset for MOFFUSION training, whic
 ./launchers/train_vqvae.sh
 ```
 
-After training, copy the trained VQVAE checkpoint to the `./saved_ckpt` folder. Let's say the name of the checkpoints are `vqvae-snet-all.ckpt` or `vqvae-bnet-all.ckpt`. This is necessary for training the Diffusion model. For SDFusion on various tasks, please see 2.~5. below.
+After training, copy the trained VQVAE checkpoint to the `./saved_ckpt` folder (or any other folders), and specify the path in the launcher file.
 
 2. Train MOF-Constructor (Optional)
 ```
