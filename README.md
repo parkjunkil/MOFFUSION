@@ -23,7 +23,7 @@ conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit
 conda install -y -c conda-forge cudatoolkit-dev  # this might take some time
 conda install -c fvcore -c iopath -c conda-forge fvcore iopath
 conda install pytorch3d -c pytorch3d
-pip install h5py joblib termcolor scipy einops tqdm matplotlib opencv-python PyMCubes imageio trimesh omegaconf tensorboard notebook Pillow==9.5.0 py3Dmol ipywidgets transformers pormake
+pip install h5py joblib termcolor scipy einops tqdm matplotlib opencv-python PyMCubes imageio trimesh omegaconf tensorboard notebook Pillow==9.5.0 py3Dmol ipywidgets transformers pormake seaborn
 pip install -U scikit-learn
 ```
 
