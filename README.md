@@ -71,6 +71,7 @@ Then, open one of the following notebooks for the task you want to perform.
 
 Note that the notebooks will automatically save the generated shapes in the `./samples` folder.
 For example, if you run `demo_topo.ipynb`, the generated outputs will be saved in `./samples/Demo_topo`.
+To utilized the generated structures for other purposes (e.g., molecular simulations), please perform an additional structure optimization process.
 
 
 
