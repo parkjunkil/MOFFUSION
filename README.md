@@ -73,8 +73,7 @@ Note that the notebooks will automatically save the generated shapes in the `./s
 For example, if you run `demo_topo.ipynb`, the generated outputs will be saved in `./samples/Demo_topo`.
 To utilized the generated structures for other purposes (e.g., molecular simulations), please perform an additional structure optimization process.
 
-#Optional
-We checked that pormake software sometimes prints out an error message, but still structures are successfully generated.
+(optional) We found that pormake software sometimes prints out an error message, but the structures are still successfully generated.
 However, if you want to silence the error message, please perfrom serialization as follow 
 ```
 serialize()
