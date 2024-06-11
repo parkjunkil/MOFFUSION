@@ -150,4 +150,4 @@ Coming soon!
 This code borrows heavely from [SDFUSION](https://github.com/yccyenchicheng/SDFusion).
 The followings packages are required to compute the SDF: [pymol](https://freeglut.sourceforge.net/](https://github.com/schrodinger/pymol-open-source)), [mesh-to-sdf](https://www.ubuntuupdates.org/package/core/kinetic/universe/base/libtbb-dev](https://github.com/marian42/mesh_to_sdf)).
 
-Funding information to be uploaded.
+This project was funded by National Research Foundation of Korea under grant No.RS-2024-00337004.
