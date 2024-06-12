@@ -74,7 +74,7 @@ For example, if you run `demo_topo.ipynb`, the generated outputs will be saved i
 To utilized the generated structures for other purposes (e.g., molecular simulations), please perform an additional structure optimization process.
 
 (optional) We found that pormake software sometimes prints out an error message, but the structures are still successfully generated.
-However, if you want to silence the error message, please perfrom serialization as follow 
+However, if you want to silence the error message, please perfrom serialization as follow. You only need to perform this once, not for each demo.
 ```
 serialize()
 ```
