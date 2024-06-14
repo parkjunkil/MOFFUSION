@@ -85,8 +85,9 @@ serialize()
 
 ## Preparing the data
 
-We are now figuring out how to share an SDF dataset for MOFFUSION training, which is quite large (i.e., 60 GB). Please stay tuned!!
-Once we share the dataset, please follow the procedure outlined below.
+Please download a dataset from following [`link`](https://drive.google.com/file/d/1Voas6pRkz3dnooQ7gaZ1R9vXD1xD21tw/view?usp=sharing) and place it under `./data/250k/`. 
+Therefore, the sdf files with .npy format would be placed in `./data/250k/resolution_32/`. 
+
 
 ## Training
 1. Train VQVAE
