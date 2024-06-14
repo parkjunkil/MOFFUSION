@@ -85,8 +85,9 @@ serialize()
 
 ## Preparing the data
 
-Please download a dataset from following [`link`](https://drive.google.com/file/d/1Voas6pRkz3dnooQ7gaZ1R9vXD1xD21tw/view?usp=sharing) and place it under `./data/250k/`. 
-Therefore, the sdf files with .npy format would be placed in `./data/250k/resolution_32/`. 
+Please download the dataset from the following [`link`](https://drive.google.com/file/d/1Voas6pRkz3dnooQ7gaZ1R9vXD1xD21tw/view?usp=sharing) and place it under `./data/250k/`. (Caution! the file is big.)
+
+Therefore, the SDF files with '.npy' format should be placed in `./data/250k/resolution_32/`. 
 
 
 ## Training
