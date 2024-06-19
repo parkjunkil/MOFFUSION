@@ -80,7 +80,7 @@ serialize()
 ```
 
 Generation example for topology conditioning, with target topology of 'pcb'
-<p align="center"><img src=./doc/objects/mof_concat.gif>
+<p align="center"><img src="./doc/objects/mof_concat.gif">
 
 
 # Train MOFFUSION
