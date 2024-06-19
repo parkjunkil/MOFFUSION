@@ -78,7 +78,9 @@ However, if you want to silence the error message, please perfrom serialization 
 ```
 serialize()
 ```
-  
+
+Generation example for topology conditioning, with target topology of 'pcb'
+<p align="center"><img src=./doc/objects/mof_concat.gif>
 
 
 # Train MOFFUSION
