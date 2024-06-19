@@ -163,3 +163,6 @@ This code borrows heavely from [SDFUSION](https://github.com/yccyenchicheng/SDFu
 The followings packages are required to compute the SDF: [pymol](https://freeglut.sourceforge.net/](https://github.com/schrodinger/pymol-open-source)), [mesh-to-sdf](https://www.ubuntuupdates.org/package/core/kinetic/universe/base/libtbb-dev](https://github.com/marian42/mesh_to_sdf)).
 
 This project was funded by National Research Foundation of Korea under grant No.RS-2024-00337004.
+
+# License
+This project is licensed under the MIT License. Please check the [LICENSE](https://github.com/parkjunkil/MOFFUSION/blob/main/LICENSE) file for more information.
