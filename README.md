@@ -81,7 +81,7 @@ serialize()
 
 ## Example
 Example of generation for topology conditioning, with a target topology of 'pcb'
-<p align="center"><img src="./docs/objects/mof_concat.gif">
+<p align="center"><img width="50" src="./docs/objects/mof_concat.gif">
 
 
 # Train MOFFUSION
