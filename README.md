@@ -1,6 +1,6 @@
 # MOFFUSION
 
-[[`arXiv`](https://chemrxiv.org/engage/chemrxiv/article-details/66860412c9c6a5c07a360c16)]
+[[`arXiv`](https://chemrxiv.org/engage/chemrxiv/article-details/668775805101a2ffa871a56c)]
 [[`Project Page`](https://parkjunkil.github.io/MOFFUSION/)]
 [[`BibTex`]to-be-uploaded]
 
