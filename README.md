@@ -1,6 +1,6 @@
 # MOFFUSION
 
-[[`arXiv`]to-be-uploaded]
+[[`arXiv`](https://chemrxiv.org/engage/chemrxiv/article-details/66860412c9c6a5c07a360c16)]
 [[`Project Page`](https://parkjunkil.github.io/MOFFUSION/)]
 [[`BibTex`]to-be-uploaded]
 
@@ -150,7 +150,7 @@ If you find this code helpful, please consider citing:
 @article{,
   author={Park, Junkil and Lee, Youhan and Kim, Jihan},
   title={Multi-modal conditioning for metal-organic frameworks generation using 3D modeling techniques},
-  booktitle={},
+  booktitle={chemrxiv},
   year={2024},
 }
 ```
