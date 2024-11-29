@@ -107,7 +107,7 @@ We encourage users to use saved MOF-Constructor checkpoint files without needing
 However, if you want to re-train them, you can easily do it as all models are available in the repository.
 ```
 
-3. Train MOFFUSION (without unconditional)
+3. Train MOFFUSION (unconditional)
 ```
 ./launchers/train_moffusion_uncond.sh
 ```
