@@ -3,12 +3,12 @@
 [[`Paper`](https://doi.org/10.1038/s41467-024-55390-9)]
 [[`Project Page`](https://parkjunkil.github.io/MOFFUSION/)]
 
-Code release for the paper "Multi-modal conditioning for metal-organic frameworks generation using 3D modeling techniques".
+Code release for the paper [`Multi-modal conditional diffusion model using signed distance functions for metal-organic frameworks generation`](https://doi.org/10.1038/s41467-024-55390-9)
 
 ![Architecture_대지 1 사본 20_대지 1 사본 21](https://github.com/parkjunkil/MOFFUSION/assets/88761984/9002e6c7-9689-4d0e-8d62-ccd72fd7f980)
 
 
-MOFFUSION is a multi-modal conditional diffusion model for MOF generation. MOFFUSION showed exceptional generation performance compared to baseline models in terms of structure validity and property statistics. Diverse modalities of data, including numeric, categorical, text, and their combinations, were successfully handled for the conditional generation of MOFs. Notably, signed distance functions (SDFs) were used for the input representation of MOFs, marking their first implementation in the generation of porous materials (below). Please visit [`Paper`](https://doi.org/10.1038/s41467-024-55390-9) and [Project Page](https://parkjunkil.github.io/MOFFUSION/) for more details.
+MOFFUSION is a multi-modal conditional diffusion model for MOF generation. MOFFUSION showed exceptional generation performance compared to baseline models in terms of structure validity and property statistics. Diverse modalities of data, including numeric, categorical, text, and their combinations, were successfully handled for the conditional generation of MOFs. Notably, signed distance functions (SDFs) were used for the input representation of MOFs, marking their first implementation in the generation of porous materials (below). Please visit [Project Page](https://parkjunkil.github.io/MOFFUSION/) for more details.
 
 
 <p align="center"><img src=https://github.com/parkjunkil/MOFFUSION/assets/88761984/fdfa3198-0895-455b-9b86-cad24670a0d2>
