@@ -1,8 +1,7 @@
 # MOFFUSION
 
-[[`arXiv`](https://chemrxiv.org/engage/chemrxiv/article-details/668775805101a2ffa871a56c)]
+[[`Paper`](https://doi.org/10.1038/s41467-024-55390-9)]
 [[`Project Page`](https://parkjunkil.github.io/MOFFUSION/)]
-[[`BibTex`]to-be-uploaded]
 
 Code release for the paper "Multi-modal conditioning for metal-organic frameworks generation using 3D modeling techniques".
 
