@@ -135,12 +135,12 @@ upcoming!
 
 If you find this code helpful, please consider citing:
 
-1. Journal version (To be uploaded)
+1. Journal version
 ```BibTeX
 @inproceedings{,
   author={Park, Junkil and Lee, Youhan and Kim, Jihan},
   title={Multi-modal conditional diffusion model using signed distance functions for metal-organic frameworks generation},
-  booktitle={Nature Communications},
+  Journal={Nature Communications},
   year={2024},
 }
 ```
@@ -149,7 +149,7 @@ If you find this code helpful, please consider citing:
 @article{,
   author={Park, Junkil and Lee, Youhan and Kim, Jihan},
   title={Multi-modal conditioning for metal-organic frameworks generation using 3D modeling techniques},
-  booktitle={chemrxiv},
+  Journal={chemrxiv},
   year={2024},
 }
 ```
