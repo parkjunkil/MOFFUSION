@@ -72,6 +72,8 @@ Note that the notebooks will automatically save the generated shapes in the `./s
 For example, if you run `demo_topo.ipynb`, the generated outputs will be saved in `./samples/Demo_topo`.
 To utilized the generated structures for other purposes (e.g., molecular simulations), please perform an additional structure optimization process.
 
+The uploaded version of MOFFUSION utilizes a classical conditional diffusion model for simplicity. However, it can be easily modified to use a classifier-free guidance approach.
+
 (optional) We found that pormake software sometimes prints out an error message, but the structures are still successfully generated.
 However, if you want to silence the error message, please perfrom serialization as follow. You only need to perform this once, not for each demo.
 ```
