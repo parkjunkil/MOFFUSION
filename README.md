@@ -95,8 +95,8 @@ Therefore, the SDF files with '.npy' format should be placed in `./data/250k/res
 
 
 ## (Optional) Generating SDF from Structure
-The method for obtaining a perdioc SDF from the structure is described in the [`Supplementary Information`](https://www.nature.com/articles/s41467-024-55390-9#Sec15), and we share a brief code snippet here for those who are interested.
-SDF can be obtained using the xyz_to_periodic_sdf.py script, which reads atomic positions from an XYZ file and cell parameters from a CIF file (to handle PBCs), and writes the resulting periodic SDF in .npy format. 
+The method for obtaining a perdioc SDF from the structure is described in the [`Supplementary Information`](https://www.nature.com/articles/s41467-024-55390-9#Sec15), and we share a brief code snippet in ./generting_sdf folder for those who are interested.
+SDF can be obtained using the xyz_to_periodic_sdf.py script, which reads atomic positions from an XYZ file and cell parameters from a CIF file (to handle PBCs), and writes the resulting periodic SDF in .npy format. (.ply and .wrl files, which contain mesh information, are also generated, but you can ignore or delete them.) 
 ```
 python xyz_to_periodic_sdf.py -xyz MOF-5.xyz -cif MOF-5.cif -out MOF-5.npy
 ```
