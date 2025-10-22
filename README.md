@@ -34,6 +34,7 @@ pip install -U scikit-learn
 ## Download the pretrained weight
 
 First create a folder `./saved_ckpt` to save the pre-trained weights. Then download the pre-trained weights from the provided links and put them in the `./saved_ckpt` folder.
+If download links don't work, put '--user-agent="Mozilla/5.0' tag and try again. (If it still doesn't work, please report it.)
 ```
 mkdir saved_ckpt  # skip if there already exists
 
